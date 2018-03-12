@@ -1,0 +1,90 @@
+
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name='apple-itunes-app' content='app-id=1332557222'>
+		<link rel="shortcut icon" href="../favicon.ico" >
+		<link href="https://matrix-dev-1255701127.cos-website.ap-shanghai.myqcloud.com/web-test/zhiqu-web/css/mui.min.css" rel="stylesheet" />
+		<link href="https://matrix-dev-1255701127.cos-website.ap-shanghai.myqcloud.com/web-test/zhiqu-web/css/iconfont.css" rel="stylesheet" />
+		<style>
+			.box{
+				width: 100%;
+				position: relative;
+			}
+			.box>img{
+				width: 100%;
+			}
+			.but{
+				width: 25%;
+				height: 0.68rem;
+				position: absolute;
+				top: 5.6rem;
+				left: 50%;
+				border-radius:0.15rem;
+				transform: translateX(-50%);
+				box-shadow: 0.01rem 0.01rem 0.01rem rgba(0,0,0,.2);
+				overflow: hidden;
+			}
+			.but>img{
+				width: 100%;
+			}
+			.mui-bar-nav .mui-icon {
+			    color: #333;
+			    font-size: 0.35rem;
+			    padding-top: 0.3rem;
+			    font-weight: 600;
+			}
+			body,.mui-bar-nav,.mui-content,.mui-scroll{
+				background: #fff;
+			}
+		</style>
+	</head>
+	
+	
+    
+	<body>
+	    <header class="mui-bar mui-bar-nav" style=";box-shadow: none;">
+			<a class="mui-action-back mui-icon iconfont mui-pull-left" id="back">&#xe604;</a>
+			<h1 class="mui-title">关于我们</h1>
+		</header>
+		<div class="mui-scroll-wrapper mui-content">
+			<div class="mui-scroll">
+				<div class="box">
+			    	<img src="https://matrix-dev-1255701127.cos-website.ap-shanghai.myqcloud.com/web-test/zhiqu-web/img/sh.jpg" alt="" />
+			    </div>
+			    <div class="but">
+			    	<img src="https://matrix-dev-1255701127.cos-website.ap-shanghai.myqcloud.com/web-test/zhiqu-web/img/sh1.png" alt="" />
+			    </div>
+			</div>
+		</div>
+		<script src="https://matrix-dev-1255701127.cos-website.ap-shanghai.myqcloud.com/web-test/zhiqu-web/js/mui.min.js"></script>
+		<script src="https://matrix-dev-1255701127.cos-website.ap-shanghai.myqcloud.com/web-test/zhiqu-web/js/rem.js"></script>
+		<script type="text/javascript">
+			mui.init();
+			mui('.mui-scroll-wrapper').scroll({
+				deceleration: 0.005,
+				indicators: false
+			});
+			
+			mui.plusReady(
+				document.querySelector('.but').addEventListener('tap',function(){
+					location.href='https://itunes.apple.com/cn/app/id1332557222'
+				}),
+				//点击左上角的返回，调用原生的返回上一页
+				mui('header').on('tap', '#back', function() {
+					location.href='index.html'
+				}),
+                document.body.addEventListener('swiperight', function(e) {
+                    if (Math.abs(e.detail.angle) < 25) {
+                        location.href='index.html'
+                    }
+                })
+			)
+		</script>
+	</body>
+
+</html>

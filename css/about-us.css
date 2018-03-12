@@ -1,0 +1,156 @@
+/*
+* @Author: Marte
+* @Date:   2017-12-28 10:02:52
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-01-03 18:22:30
+*/
+em{font-style:normal}
+.banner .wrap img{
+     -webkit-filter: blur(3px); /* Chrome, Opera */
+       -moz-filter: blur(3px);
+        -ms-filter: blur(3px);
+            filter: blur(3px);
+}
+.Business_contain{
+
+}
+
+/*.jansi_main .banner .wrap{*/
+    /*background: url("../img/ban3.png") no-repeat center/cover;*/
+/*}*/
+
+.experience{
+    padding:80px;
+
+}
+
+.Business_contain .container .experience ul li{
+    overflow:hidden;
+    padding-bottom:30px;
+}
+.Business_contain .container .experience ul li h3{
+    float:left;
+    font-size:18px;
+    font-weight:normal;
+    color:#333333;
+    width: 66px;
+}
+.Business_contain .container .experience ul li h4{
+     float:left;
+    font-size:16px;
+    font-weight:lighter;
+    color:#333333;
+}
+.Business_contain .container .experience ul li i{
+    display: inline-block;
+    width:15px;
+    height:15px;
+    border:1px solid #333333;
+    border-radius:7.5px;
+    float:left;
+    margin:0 40px;
+    position:relative;
+}
+
+.Business_contain .container .experience ul li i em{
+    width: 1px;
+    height:35px;
+    background-color: #333333;
+    position:absolute;
+    top:14px;
+
+}
+.introduce{
+    border-top: 1px solid #CCCCCC;
+}
+.introduce h2{
+    font-size:24px;
+    color:#333333;
+    margin-top:20px;
+}
+.introduce p{
+    height:265px;
+    margin-top: 20px;
+    font-size:16px;
+    text-align: left;
+    text-indent:36px;
+    line-height: 36px;
+    font-weight:lighter;
+    //background-color: pink;
+}
+.address dl{
+    overflow:hidden;
+     margin-bottom:90px;
+}
+.address dl dt{
+    float:left;
+    width: 50%;
+}
+.address dl dt ul{
+
+ }
+.address dl dt ul li{
+    text-align:left;
+    margin-bottom:50px;
+    overflow:hidden;
+    // font-family:"Microsoft YaHei";
+    font-size:16px;
+    // font-weight:normal;
+    color:#333333;
+}
+.address dl dt ul li span:nth-of-type(1){
+    float:left;
+    width:18%;
+}
+.address dl dt ul li span:nth-of-type(2){
+    float:left;
+    width:82%;
+    font-weight:lighter;
+}
+
+.jansi_main .Business_contain{
+    margin-bottom:0;
+}
+.address dl dd{
+    float:right;
+    width: 50%;
+
+}
+.maps{
+    /* width: 325px; */
+    margin:0 auto;
+    width: 80%;
+    height:300px;
+}
+.jansi_main .banner .container .content h1{
+    font-size: 55px;
+    font-weight: 500;
+    letter-spacing: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
